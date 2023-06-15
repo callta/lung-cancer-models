@@ -10,7 +10,7 @@ Before using the models, please read the disclaimer.
 These models are freely available for non-profit use. Please see the Licence for more details.
 
 ## Risk calculator
-If you wish to use the UCL risk calculator, please click here or use this link to be taken to the website:
+If you wish to use the UCL risk calculator, please click here or use this link to be taken to the website: https://ucl-lung-cancer-risk.streamlit.app/
 
 ## Using the model code
 
