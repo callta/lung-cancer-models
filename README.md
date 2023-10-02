@@ -4,13 +4,10 @@ The UCL models for lung cancer risk prediction
 
 The UCL models are designed to be used to predict the risk of lung cancer (occurrence or death) in an individual who has smoked at least 100 cigarettes in their lifetime and are aged at least 40 years old.
 
-For more details, please see the following paper: http://dx.doi.org/10.1101/2023.01.27.23284974
+For more details, please see the following paper: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004287
 
 Before using the models, please read the disclaimer. 
 These models are freely available for non-profit use. Please see the Licence for more details.
-
-## Risk calculator
-If you wish to use the UCL risk calculator, please click here or use this link to be taken to the website: https://ucl-lung-cancer-risk.streamlit.app/
 
 ## Using the model code
 
