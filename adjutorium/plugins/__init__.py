@@ -18,11 +18,11 @@ class Plugins:
             str, Dict[str, Union[Imputers, Predictions, Preprocessors]]
         ] = {
             "imputer": {
-                "default": Imputers(),
+                # "default": Imputers(),
             },
             "prediction": {
                 "classifier": Predictions(category="classifier"),
-                "risk_estimation": Predictions(category="risk_estimation"),
+                # "risk_estimation": Predictions(category="risk_estimation"),
             },
             "preprocessor": {
                 "feature_scaling": Preprocessors(category="feature_scaling"),

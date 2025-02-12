@@ -11,7 +11,7 @@ import adjutorium.logger as log
 # adjutorium relative
 from .base import TreatmentsPlugin  # noqa: F401,E402
 
-plugins = glob.glob(join(dirname(__file__), "plugin*.py"))
+# plugins = glob.glob(join(dirname(__file__), "plugin*.py"))
 
 
 class Treatments:

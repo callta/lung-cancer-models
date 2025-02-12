@@ -4,7 +4,7 @@ from typing import List, Tuple
 
 # third party
 import numpy as np
-import optuna
+# import optuna
 import pandas as pd
 from sklearn.model_selection import StratifiedKFold
 

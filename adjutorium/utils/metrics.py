@@ -2,7 +2,7 @@
 from typing import Tuple, Union
 
 # third party
-from lifelines import KaplanMeierFitter
+# from lifelines import KaplanMeierFitter
 import numpy as np
 import pandas as pd
 from sklearn.metrics import (
@@ -13,7 +13,7 @@ from sklearn.metrics import (
     roc_curve,
 )
 from sklearn.preprocessing import label_binarize
-from sksurv.metrics import brier_score, concordance_index_ipcw
+# from sksurv.metrics import brier_score, concordance_index_ipcw
 
 # adjutorium absolute
 import adjutorium.logger as log

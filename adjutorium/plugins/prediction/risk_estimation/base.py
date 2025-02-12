@@ -7,7 +7,7 @@ import pandas as pd
 
 # adjutorium absolute
 import adjutorium.plugins.core.params as params
-from adjutorium.plugins.explainers.plugin_invase import plugin as explainer
+from adjutorium.plugins.explainers.base import ExplainerPlugin as explainer
 import adjutorium.plugins.prediction.base as prediction_base
 import adjutorium.plugins.utils.cast as cast
 

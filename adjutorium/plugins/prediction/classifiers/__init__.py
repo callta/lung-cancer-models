@@ -11,7 +11,7 @@ from adjutorium.plugins.prediction.classifiers.base import (  # noqa: F401,E402
     ClassifierPlugin,
 )
 
-plugins = glob.glob(join(dirname(__file__), "plugin*.py"))
+plugins = [p for p in glob.glob(join(dirname(__file__), "plugin*.py")) if "plugin_xgboost.py" not in p]
 
 
 class Classifiers:

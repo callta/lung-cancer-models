@@ -1,6 +1,6 @@
 # third party
 import numpy as np
-import torch
+# import torch
 
 
 def one_hot_encoder(arr: np.ndarray) -> torch.Tensor:

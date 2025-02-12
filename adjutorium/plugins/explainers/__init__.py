@@ -11,7 +11,7 @@ import adjutorium.logger as log
 # adjutorium relative
 from .base import ExplainerPlugin  # noqa: F401,E402
 
-plugins = glob.glob(join(dirname(__file__), "plugin*.py"))
+# plugins = glob.glob(join(dirname(__file__), "plugin*.py"))
 
 
 class Explainers:
@@ -86,7 +86,7 @@ class Explainers:
         return self
 
 
-__all__ = [basename(f)[:-3] for f in plugins if isfile(f)] + [
-    "Explainers",
-    "ExplainerPlugin",
-]
+# __all__ = [basename(f)[:-3] for f in plugins if isfile(f)] + [
+#     "Explainers",
+#     "ExplainerPlugin",
+# ]

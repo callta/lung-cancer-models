@@ -2,7 +2,7 @@
 from typing import Tuple
 
 # third party
-import optuna
+# import optuna
 
 # adjutorium absolute
 import adjutorium.logger as log
@@ -11,8 +11,8 @@ from adjutorium.utils.redis import backend
 threshold = 40
 
 
-class EarlyStoppingExceeded(optuna.exceptions.OptunaError):
-    pass
+# class EarlyStoppingExceeded(optuna.exceptions.OptunaError):
+#     pass
 
 
 class ParamRepeatPruner:

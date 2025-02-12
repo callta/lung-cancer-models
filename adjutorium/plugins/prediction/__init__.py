@@ -3,7 +3,7 @@ from typing import Any, Generator, List, Type, Union
 
 # adjutorium absolute
 from adjutorium.plugins.prediction.classifiers import Classifiers
-from adjutorium.plugins.prediction.risk_estimation import RiskEstimation
+# from adjutorium.plugins.prediction.risk_estimation import RiskEstimation
 
 # adjutorium relative
 from .base import PredictionPlugin  # noqa: F401,E402

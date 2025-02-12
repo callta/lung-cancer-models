@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import Any, Dict, List, Union
 
 # third party
-from torch.utils.tensorboard import SummaryWriter
+# from torch.utils.tensorboard import SummaryWriter
 
 # adjutorium absolute
 import adjutorium.logger as log

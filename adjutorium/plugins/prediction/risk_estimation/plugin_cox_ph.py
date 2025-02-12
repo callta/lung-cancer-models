@@ -3,7 +3,7 @@ from typing import Any, List
 
 # third party
 import pandas as pd
-from sksurv.linear_model import CoxPHSurvivalAnalysis
+# from sksurv.linear_model import CoxPHSurvivalAnalysis
 
 # adjutorium absolute
 import adjutorium.plugins.core.params as params

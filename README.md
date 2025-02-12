@@ -25,7 +25,15 @@ This will create a new conda environment called ucl_lung_cancer_models. Activate
 $ conda activate ucl_lung_cancer_models
 ```
 
+You can then run a jupyter notebook using the following command:
+
+```bash
+$ jupyter notebook
+```
+
 ### Get predictions
+
+In your notebook or another python script, you can then load the model and make predictions as follows:
 
 ```python
 import pandas as pd
@@ -39,13 +47,21 @@ def load_model(model='ucld'):
     return load_model_from_file(f"models/{model}/fittedmodel.p")
     
 X = pd.DataFrame({
-	age = [50,65,70],
-	smoking_duration = [30,38,50],
-	pack_years=[15,38,75]  
+	'age': [50,65,70],
+	'smoking_duration': [30,38,50],
+	'pack_years': [15,38,75]  
 	})
  
- ucld_model = load_model()
- predictions = ucld_model.predict_proba(X)
+ucld_model = load_model()
+ucli_model = load_model(model='ucli')
+
+predictions_ucld = ucld_model.predict_proba(X)[1]
+predictions_ucli = ucli_model.predict_proba(X)[1]
+
+X["UCL-D"] = predictions_ucld
+X["UCL-I"] = predictions_ucli
+
+X
  ```
  
 

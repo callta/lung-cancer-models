@@ -2,7 +2,7 @@
 from typing import Any, Dict, List, Tuple, Type, Union
 
 # third party
-from optuna.trial import Trial
+# from optuna.trial import Trial
 
 # adjutorium absolute
 from adjutorium.explorers.core.defaults import (
